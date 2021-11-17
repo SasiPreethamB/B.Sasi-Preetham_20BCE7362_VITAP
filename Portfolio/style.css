@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h2{
+    background-color: rgb(156, 156, 156);
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+h3{
+    padding-left: 100px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-right: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+/*Header*/
+#header{
+    background-color: black;
+    color: white;
+    font-family: 'Lobster', cursive;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+/*navbar*/
+#navbar{
+    background-color: turquoise;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    transition: top 0.3s;
+    
+}
+#navbar ul{
+    list-style: none;
+}
+#navbar ul li{
+    display: inline;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: darkblue;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px blue;
+}
+/*home*/
+.name{
+    color: white;
+}
+/*about me*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width: 325px;
+    height: 430px;
+}
+p{
+    padding-left: 203px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 203px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+/*Skills*/
+/*html*/
+.htmlpic{
+    background-repeat: no-repeat;
+}
+.htmltext{
+    padding-left: 700px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+/*css*/
+.csspic{
+    background-repeat: no-repeat;
+}
+.csstext{
+    padding-left: 700px;
+    padding-top: 176px;
+    padding-bottom: 185px;
+}
+/*java*/
+.javapic{
+    background-repeat: no-repeat;
+}
+.javatext{
+    padding-left: 700px;
+    padding-top: 190px;
+    padding-bottom: 200px;
+    
+}
+/*Contact*/
+#contact{
+    background-color: grey;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+#contacts{
+    padding-right: 30px;
+}
